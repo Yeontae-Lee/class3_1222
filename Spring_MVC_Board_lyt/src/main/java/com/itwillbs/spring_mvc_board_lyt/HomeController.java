@@ -17,7 +17,6 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		// ytlee 브랜치에서 추가한 내용
-		// ytlee 브랜치에서 추가한 내용22222222
 		
 		return "index";
 	}
